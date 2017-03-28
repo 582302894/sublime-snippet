@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/** 
+* 功能:	${1}
+* 描述：${2}
+* @date 2016年10月28日 11:37:56
+* @author shb@neitui.me
+* @params ${3}
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>function//</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>php function注释</description>
+</snippet>

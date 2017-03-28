@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<!--
+EOT;
+if(${1}){
+print <<<EOT
+-->
+${2}
+<!--
+EOT;
+}
+print <<<EOT
+-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>if//</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
