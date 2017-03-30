@@ -1,15 +1,10 @@
 <snippet>
 	<content><![CDATA[
-$time1=microtime(get_as_float);
-$time2=microtime(get_as_float);
-echo '<pre>';
-var_dump($time2-$time1);
-var_dump($time2);
-var_dump($time1);
-echo '</pre>';exit();
+site_header();
+require get_template();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>timetest</tabTrigger>
+	<tabTrigger>headerr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
