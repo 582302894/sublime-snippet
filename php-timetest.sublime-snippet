@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
-\$time1=microtime(get_as_float);
-${2:\$time2=microtime(get_as_float);
+session_start();
+\$_SESSION['time1']=microtime(get_as_float);
+${2:\$_SESSION['time2']=microtime(get_as_float);
 echo '<pre>';
-var_dump(\$time2-\$time1);
-var_dump(\$time2);
-var_dump(\$time1);
+var_dump(\$_SESSION['time2']-\$_SESSION['time1']);
+var_dump(\$_SESSION['time2']);
+var_dump(\$_SESSION['time1']);
 echo '</pre>';exit();}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
